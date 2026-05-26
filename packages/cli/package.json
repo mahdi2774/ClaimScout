@@ -1,0 +1,12 @@
+{
+  "name": "@claimscout/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "claimscout": "./bin/claimscout.js"
+  },
+  "main": "./bin/claimscout.js",
+  "dependencies": {
+    "@claimscout/core": "0.1.0"
+  }
+}

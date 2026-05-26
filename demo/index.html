@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClaimScout Demo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <img src="../assets/logo.svg" alt="ClaimScout logo" class="logo" />
+        <div>
+          <p class="eyebrow">Offline demo</p>
+          <h1>ClaimScout</h1>
+          <p class="subtitle">Paste a claim-heavy text block and get an explainable risk triage report.</p>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="panel input-panel">
+          <div class="panel-header">
+            <h2>Analyze text</h2>
+            <select id="profile">
+              <option value="general">General</option>
+              <option value="health">Health</option>
+              <option value="finance">Finance</option>
+              <option value="civic">Civic</option>
+            </select>
+          </div>
+
+          <textarea id="input" rows="12" placeholder="Paste text here..."></textarea>
+
+          <div class="actions">
+            <button id="analyzeBtn">Analyze</button>
+            <button class="secondary" data-example="health">Health example</button>
+            <button class="secondary" data-example="civic">Civic example</button>
+            <button class="secondary" data-example="balanced">Balanced example</button>
+          </div>
+
+          <p class="note">ClaimScout is a triage tool, not a truth oracle.</p>
+        </div>
+
+        <div class="panel output-panel">
+          <div class="summary-card" id="summaryCard">
+            <p class="eyebrow">Summary</p>
+            <div class="summary-row">
+              <div>
+                <span class="summary-label">Score</span>
+                <strong id="overallScore">0</strong>
+              </div>
+              <div>
+                <span class="summary-label">Severity</span>
+                <strong id="overallSeverity">low</strong>
+              </div>
+            </div>
+            <p id="summaryText">Paste text and click Analyze.</p>
+          </div>
+
+          <div class="panel-block">
+            <h3>Findings</h3>
+            <div id="findings"></div>
+          </div>
+
+          <div class="panel-block">
+            <h3>Verification checklist</h3>
+            <ul id="checklist"></ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

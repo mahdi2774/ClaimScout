@@ -1,0 +1,38 @@
+{
+  "name": "claimscout",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Privacy-first misinformation triage toolkit for journalists, educators, civic teams, and AI builders.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/claimscout.git"
+  },
+  "homepage": "https://github.com/your-org/claimscout",
+  "bugs": {
+    "url": "https://github.com/your-org/claimscout/issues"
+  },
+  "keywords": [
+    "misinformation",
+    "fact-checking",
+    "journalism",
+    "civic-tech",
+    "open-source",
+    "verification",
+    "claim-analysis",
+    "cli",
+    "browser"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test packages/core/src/*.test.js",
+    "analyze": "node packages/cli/bin/claimscout.js",
+    "demo": "python3 -m http.server 4173 -d ."
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

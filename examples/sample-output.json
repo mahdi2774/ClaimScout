@@ -1,0 +1,87 @@
+{
+  "version": "0.1.0",
+  "profile": "general",
+  "overallScore": 56,
+  "overallSeverity": "high",
+  "summary": "1 high-risk claims, 1 unsupported numeric claims, dominant domain: finance.",
+  "findings": [
+    {
+      "sentence": "BREAKING: Experts say the city budget doubled by 40% last year and this crypto fund can guarantee returns for everyone.",
+      "domain": "finance",
+      "score": 92,
+      "severity": "critical",
+      "reasons": [
+        {
+          "code": "numeric-no-source",
+          "label": "Unsupported numeric claim",
+          "impact": 24,
+          "detail": "The sentence includes a number or percentage without a visible source cue."
+        },
+        {
+          "code": "anonymous-authority",
+          "label": "Anonymous authority",
+          "impact": 18,
+          "detail": "The sentence relies on vague authority like 'experts say' without naming who."
+        },
+        {
+          "code": "finance-harm",
+          "label": "High-impact finance claim without attribution",
+          "impact": 18,
+          "detail": "Claims in finance contexts can cause more harm when shared without evidence."
+        },
+        {
+          "code": "urgency",
+          "label": "Urgency / pressure tactic",
+          "impact": 12,
+          "detail": "The wording encourages action or sharing before careful verification."
+        },
+        {
+          "code": "absolutist",
+          "label": "Absolutist wording",
+          "impact": 12,
+          "detail": "Words like 'always', 'never', 'miracle', or 'guaranteed' increase verification risk."
+        }
+      ],
+      "suggestions": [
+        "Find the original dataset, report, or study behind the number.",
+        "Identify the named expert, institution, or publication behind the claim.",
+        "Check whether the wording is trying to provoke sharing before verification.",
+        "Check regulated filings, audited numbers, and trusted financial reporting.",
+        "Search for at least two independent, credible sources before sharing."
+      ]
+    },
+    {
+      "sentence": "Share now before it's deleted.",
+      "domain": "general",
+      "score": 20,
+      "severity": "low",
+      "reasons": [
+        {
+          "code": "urgency",
+          "label": "Urgency / pressure tactic",
+          "impact": 12,
+          "detail": "The wording encourages action or sharing before careful verification."
+        }
+      ],
+      "suggestions": [
+        "Check whether the wording is trying to provoke sharing before verification.",
+        "Search for at least two independent, credible sources before sharing."
+      ]
+    }
+  ],
+  "verificationChecklist": [
+    "Pause before sharing and verify the highest-risk claim first.",
+    "Look for the primary source, not only reposts or screenshots.",
+    "Compare with at least two independent credible sources.",
+    "Find the original dataset, report, or study behind the number.",
+    "Identify the named expert, institution, or publication behind the claim.",
+    "Check whether the wording is trying to provoke sharing before verification.",
+    "Check regulated filings, audited numbers, and trusted financial reporting.",
+    "Search for at least two independent, credible sources before sharing."
+  ],
+  "metadata": {
+    "analyzedAt": "2026-05-17T20:02:02.612Z",
+    "claimCount": 2,
+    "characters": 150
+  }
+}

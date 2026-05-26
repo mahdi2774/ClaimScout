@@ -1,0 +1,15 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0B1020"/>
+  <circle cx="165" cy="180" r="92" fill="#121A33" stroke="#5EEAD4" stroke-width="12"/>
+  <path d="M136 174L158 196L209 145" stroke="#5EEAD4" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M600 150C600 128.909 617.091 111.818 638.182 111.818H1021.82C1042.91 111.818 1060 128.909 1060 150V196.364C1060 217.455 1042.91 234.545 1021.82 234.545H638.182C617.091 234.545 600 217.455 600 196.364V150Z" fill="#11182C"/>
+  <text x="290" y="220" fill="#F8FAFC" font-size="66" font-family="Arial, Helvetica, sans-serif" font-weight="700">ClaimScout</text>
+  <text x="290" y="290" fill="#A5B4FC" font-size="30" font-family="Arial, Helvetica, sans-serif">Open-source misinformation triage</text>
+  <text x="290" y="338" fill="#CBD5E1" font-size="28" font-family="Arial, Helvetica, sans-serif">Transparent rules · Local-first · CLI + Web Demo</text>
+  <rect x="290" y="396" width="230" height="54" rx="27" fill="#5EEAD4" fill-opacity="0.12" stroke="#5EEAD4"/>
+  <text x="333" y="431" fill="#5EEAD4" font-size="26" font-family="Arial, Helvetica, sans-serif">Privacy-first</text>
+  <rect x="542" y="396" width="220" height="54" rx="27" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA"/>
+  <text x="592" y="431" fill="#C4B5FD" font-size="26" font-family="Arial, Helvetica, sans-serif">Explainable</text>
+  <rect x="785" y="396" width="215" height="54" rx="27" fill="#60A5FA" fill-opacity="0.12" stroke="#60A5FA"/>
+  <text x="842" y="431" fill="#93C5FD" font-size="26" font-family="Arial, Helvetica, sans-serif">Open source</text>
+</svg>
