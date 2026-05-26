@@ -196,3 +196,11 @@ Start with [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 ## License
 
 Apache-2.0 — see [`LICENSE`](./LICENSE).
+
+## Some Screenshots of webapp.
+
+<img width="1366" height="768" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/7cbb3ec5-4aaf-4fdc-8253-dd67c9c6b00f" />
+<img width="1366" height="768" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/8469464c-949c-4079-b455-e1b693705d7e" />
+<img width="1366" height="768" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/531080ca-3ac8-4a50-9b3d-6af7dbfd1e3e" />
+<img width="1366" height="768" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/f6660d0e-9633-4a50-822b-6a6ca74b574f" />
+<img width="1366" height="768" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/05b2304b-e6a6-4e00-9ff2-cb6108170148" />
