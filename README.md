@@ -61,7 +61,7 @@ claimscout/
 ### 1) Clone
 
 ```bash
-git clone https://github.com/mahdi2774/ClaimScout.git
+git clone https://github.com/mahdi2774/claimscout.git
 cd claimscout
 ```
 
