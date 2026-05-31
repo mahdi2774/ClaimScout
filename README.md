@@ -197,6 +197,42 @@ Start with [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
 Apache-2.0 — see [`LICENSE`](./LICENSE).
 
+## Connect
+
+<br>
+
+<h2 align="center">🌐 Connect With Me</h2>
+
+<div align="center">
+
+<a href="https://github.com/mahdi2774" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+
+<a href="https://www.facebook.com/dubir4022" target="_blank">
+  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
+</a>
+
+<a href="https://scratch.mit.edu/users/mahdi2774/" target="_blank">
+  <img src="https://img.shields.io/badge/Scratch-FF8C1A?style=for-the-badge&logo=scratch&logoColor=white" alt="Scratch"/>
+</a>
+
+<a href="https://youtube.com/@" target="_blank">
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
+</a>
+
+<a href="mailto:mdmahdimubasshir@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-1F2937?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email"/>
+</a>
+
+<a href="https://wa.me/8801979841739" target="_blank">
+  <img src="https://img.shields.io/badge/WhatsApp-111827?style=for-the-badge&logo=whatsapp&logoColor=25D366" alt="WhatsApp"/>
+</a>
+
+</div>
+
+<br>
+
 ## Some Screenshots of webapp.
 
 <img width="1366" height="768" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/0ef4d26c-f845-40f4-ab9e-4053912bd726" />
